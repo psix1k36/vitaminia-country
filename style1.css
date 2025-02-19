@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+.header {
+    height: 56px;
+    background-color: #fff;
+}
+
+
+body {
+    background-color: #FFDBA9;
+    font-family: IBM Plex Sans;
+    font-size: 40pt;
+}
+
+.text {
+    text-align: left;
+    text-indent: 70px;
+}
+
+.wrapper {
+    width: 1340px;
+    margin: auto;
+    margin-bottom: 100px !important;
+}
+
+.head {
+    font-size: 60pt;
+    text-align: center;
+}
+
+.author {
+    font-size: 40pt;
+    text-align: right;
+    margin-top: 20px;
+}
+
+.exit {
+    width: 60px;
+    margin-left: 50px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.Scriptcontent {
+    margin: -135px 0 80px 100px;
+}
+
+@media (max-width: 1340px) {
+    
+    .wrapper {
+        width: 900px;
+        margin: auto;
+    }
+
+    body {
+        background-color: #FFDBA9;
+        font-family: IBM Plex Sans;
+        font-size: 35pt;
+    }
+    
+    .head {
+        font-size: 45pt;
+        text-align: center;
+    }
+
+    .author {
+        font-size: 30pt;
+        text-align: right;
+    }
+
+
+}
+
+@media (max-width: 900px) {
+    
+    .wrapper {
+        width: 700px;
+        margin-right: 100px;
+    }
+
+    body {
+        background-color: #FFDBA9;
+        font-family: IBM Plex Sans;
+        font-size: 25pt;
+    }
+    
+    .head {
+        font-size: 30pt;
+        text-align: center;
+    }
+
+    .author {
+        font-size: 25pt;
+        text-align: right;
+    }
+
+
+}
+

@@ -1,0 +1,473 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    height: 56px;
+    background-color: #fff;
+}
+
+
+body {
+    background-image: url("images/grass.jpg");
+    font-family: IBM Plex Sans;
+    font-size: 18pt;
+
+    overflow-x: clip;
+}
+
+
+
+.text {
+    text-align: left;
+    text-indent: 30px;
+    margin-left: 12px;
+    max-width: 609px;
+}
+
+.text:not(:first-child) {
+    margin-top: 10px;
+}
+
+.text1 {
+    text-align: center;
+    max-width: 609px;
+    margin-top: 10px;
+    font-style: italic;
+}
+
+.text-correct {
+    text-align: left;
+    margin-left: 25px;
+    max-width: 609px;
+}
+
+.text-correct-1 {
+    text-align: left;
+    margin-left: 30px;
+    max-width: 609px;
+}
+
+.big-text-a {
+    margin-top: 100px;
+}
+
+.big-text-b2 {
+    margin-top: 50px;
+}
+
+.name-text-s2 {
+    position: absolute;
+    text-align: center;
+    font-size: 40px;
+    left: 55px;
+    top: 170px;
+}
+
+.name-text-s6 {
+    position: absolute;
+    text-align: center;
+    font-size: 40px;
+    left: 190px;
+    top: 150px;
+}
+
+.name-text-s7 {
+    position: absolute;
+    text-align: center;
+    font-size: 40px;
+    left: 190px;
+    top: 200px;
+}
+
+.name-text-t3 {
+    position: absolute;
+    text-align: center;
+    font-size: 40px;
+    left: 250px;
+    top: 200px;
+}
+
+.exit1 {
+    position: absolute;
+    width: 10%;
+    right: 620px;
+    top: 50px;
+}
+
+.recipe-book {
+    position: relative;
+    width: 96%;
+    top: 120px;
+    left: 0px;
+
+}
+
+.salads {
+    position: absolute;
+    left: 70px;
+    top: 360px;
+    width: 25%;
+    
+}
+
+.salad-1 {
+    position: absolute;
+    left: 70px;
+    top: 430px;
+    width: 45%;
+    
+}
+
+.salad-2 {
+    position: absolute;
+    left: 70px;
+    top: 470px;
+    width: 80%;
+    
+}
+
+.salad-3 {
+    position: absolute;
+    left: 70px;
+    top: 510px;
+    width: 40%;
+}
+
+.salad-4 {
+    position: absolute;
+    left: 70px;
+    top: 550px;
+    width: 33%;
+}
+
+.salad-5 {
+    position: absolute;
+    left: 70px;
+    top: 590px;
+    width: 38%;
+}
+
+.salad-6 {
+    position: absolute;
+    left: 70px;
+    top: 630px;
+    width: 40%;
+}
+
+.salad-7 {
+    position: absolute;
+    left: 70px;
+    top: 670px;
+    width: 40%;
+}
+
+.drinks {
+    position: absolute;
+    left: 70px;
+    top: 780px;
+    width: 30%;
+}
+
+.tea-1 {
+    position: absolute;
+    left: 70px;
+    top: 840px;
+    width: 35%;
+}
+
+.tea-2 {
+    position: absolute;
+    left: 70px;
+    top: 885px;
+    width: 38%;
+}
+
+.lemonade {
+    position: absolute;
+    left: 70px;
+    top: 930px;
+    width: 21%;
+}
+
+.salad-img {
+    width: 90%;
+    margin-top: 100px;
+}
+
+.salad-img-6 {
+    width: 85%;
+    margin-top: 120px;
+}
+
+.drink-img  {
+    width: 90%;
+    margin-top: 180px;
+}
+
+.book-1 {
+    position: relative;
+    width: 30%;
+    margin-top: 40px;
+    margin-right: 395px;
+
+}
+
+.book-2 {
+    position: absolute;
+    width: 27%;
+    top: 174px;
+    right: 257px;
+}
+
+.book-3 {
+    position: absolute;
+    width: 27%;
+    top: 174px;
+    right: 61px;
+}
+
+.book-4 {
+    position: absolute;
+    width: 26.9%;
+    top: 455px;
+    right: 453px;
+}
+
+.book-5 {
+    position: absolute;
+    width: 27%;
+    top: 458px;
+    right: 257px;
+}
+
+.book-6 {
+    position: absolute;
+    width: 27%;
+    top: 458px;
+    right: 61px;
+}
+
+.book-7 {
+    position: absolute;
+    width: 27%;
+    top: 743px;
+    right: 453px;
+}
+
+.book-8 {
+    position: absolute;
+    width: 27%;
+    top: 743px;
+    right: 257px;
+}
+
+
+.book-9 {
+    position: absolute;
+    width: 27%;
+    top: 743px;
+    right: 61px;
+}
+
+.book-10 {
+    position: absolute;
+    width: 27%;
+    top: 1030px;
+    right: 257px;
+}
+
+.remodal .big-text,
+.remodal .big-text-a,
+.remodal .big-text-b2 {
+    padding: 0 25px;
+}
+
+
+.remodal-bg.with-red-theme.remodal-is-opening,
+    .remodal-bg.with-red-theme.remodal-is-opened {
+      filter: none;
+    }
+
+    .remodal-overlay.with-red-theme {
+      background-color: #f44336;
+    }
+
+    .remodal.with-red-theme {
+      background: #fff;
+    }
+
+
+.remodal-overlay.without-animation.remodal-is-opening,
+.remodal-overlay.without-animation.remodal-is-closing,
+.remodal.without-animation.remodal-is-opening,
+.remodal.without-animation.remodal-is-closing,
+.remodal-bg.without-animation.remodal-is-opening,
+.remodal-bg.without-animation.remodal-is-closing {
+    animation: none;
+}
+
+
+
+
+/* --a: 0.2;
+--b: 0;
+--c: 0;
+--d: 1;
+--e: 0;
+--f: 0.2;
+--g: 0;
+--h: 0;
+--i: 1;
+--j:0 */
+
+.magic-container:not(.magic-container_editor), .magic-container_editor:not(.magic-container__is-mobile) {
+    height:calc(var(--A) * var(--mult));
+}
+
+.magic-container:not(.magic-container_editor) .magic-card, .magic-container_editor:not(.magic-container__is-mobile) .magic-card {
+    left: calc(var(--b) * var(--mult));
+    top: calc(var(--c) * var(--mult));
+    width: calc(var(--a) * var(--mult));
+    z-index:var(--d)
+}
+
+.magic-container:not(.magic-container_editor) .magic-card__inner, .magic-container_editor:not(.magic-container__is-mobile) .magic-card__inner {
+    rotate:calc(var(--e) * 1deg)
+}
+
+.magic-panel {
+    background-color: #f7f7f7;
+    display: flex;
+    font-size: 13px;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    z-index:1000
+}
+
+.magic-panel__clear, .magic-panel__is-mobile-label, .magic-panel__send {
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+    font: inherit;
+    padding: 0 5px;
+    transition:background-color .05s linear
+}
+
+.magic-panel__clear:hover, .magic-panel__is-mobile-label:hover, .magic-panel__send:hover {
+    background-color:rgba(74, 74, 74, .1)
+}
+
+.magic-panel__is-mobile-label {
+    align-items: center;
+    display: flex;
+    gap:5px
+}
+
+.magic-container {
+    margin: 0 auto;
+    position: relative;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    --mult:100vw
+}
+
+.magic-card {
+    position:absolute
+}
+
+.magic-card__inner {
+    animation: none;
+    animation: var(--l, none);
+    cursor: var(--k) 64 64, auto;
+    display:block
+}
+
+.magic-card__inner-1 {
+    animation: none;
+    animation: var(--l, none);
+    cursor: var(--k) 64 64, auto;
+    margin-top: 114px;
+    display:block
+    
+}
+
+.magic-card__inner-3 {
+    animation: none;
+    animation: var(--l, none);
+    cursor: var(--k) 64 64, auto;
+    margin-top: -10px;
+    display:block
+    
+}
+
+.magic-card__inner-2 {
+    animation: none;
+    animation: var(--l, none);
+    cursor: var(--k) 64 64, auto;
+    margin-top: 20px;
+    display:block
+    
+}
+
+.magic-card__inner-4 {
+    animation: none;
+    animation: var(--l, none);
+    cursor: var(--k) 64 64, auto;
+    margin-top: -50px;
+    display:block
+    
+}
+
+.magic-card__image {
+    display: block;
+    opacity: 1;
+    transition: opacity .2s ease;
+    width:100%
+}
+
+.magic-card__image[hidden] {
+    opacity:0
+}
+
+
+.magic-container:not(.magic-container_editor) {
+    max-width: 1540px
+}
+
+.showmobile { display: none; }
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 1200px){ .showmobile { display: inline; }}
+
+@media (min-width: 1540px) {
+    .magic-container:not(.magic-container_editor) {
+        --mult: 1540px
+    }
+}
+
+@media (max-width: 600px) {
+    .magic-container:not(.magic-container_editor) {
+        height:calc(var(--B) * var(--mult))
+    }
+
+    .magic-container:not(.magic-container_editor) .magic-card {
+        left: calc(var(--g) * var(--mult));
+        top: calc(var(--h) * var(--mult));
+        width: calc(var(--f) * var(--mult));
+        z-index:var(--i)
+    }
+
+    .magic-container:not(.magic-container_editor) .magic-card__inner {
+        rotate:calc(var(--j) * 1deg)
+    }
+
+}
